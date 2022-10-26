@@ -63,6 +63,8 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  toy = Toys.create(toy_params) should be 
+  toy = Toy.create(toy_params)
 
 - Update the number of likes for a toy
 
@@ -71,3 +73,4 @@ developing your own process.
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  - check routes.rb for the destroy routes 
